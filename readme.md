@@ -1,3 +1,13 @@
+## The Fisher
+
+### Background
+
+The Fisher is a duplicate of Fishing Girl by Kongregate. Fishing Girl starts out with the player having 3 small lures, a fishing rod follow and the following rules:
+
+1) All fish are attracted to all lures.
+2) The lure determines the size of the fish that can be caught. Small lures can catch small fish, medium lures catch medium fish, etc.
+3) If a larger fish bites a lure of a smaller size, the lure is lost (I.e. medium fish eats a small lure, large fish eats a small/medium lure)
+
 ### Functionality & MVP
 
 Users will be able to:
