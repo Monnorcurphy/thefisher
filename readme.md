@@ -14,3 +14,4 @@ In order to render the game on the browser I decided to use Canvas and Easel js.
 Users can use the arrow keys or ASD to move left/right, and throw hooks down to catch fish.
 
 <img src="./images/gameplay.png" />
+<img src="./images/active-gameplay.png" />
