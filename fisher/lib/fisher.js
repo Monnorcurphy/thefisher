@@ -68,9 +68,12 @@ class Fisher{
 
 
   updatePosition(x){
+    
+    if(x > 0 && x < this.stage.canvas.width - 60){
+      this.fisher.x = x
+      this.stage.update
+    }
 
-    this.fisher.x = x
-    this.stage.update
   }
 
 }

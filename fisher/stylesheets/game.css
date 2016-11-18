@@ -19,4 +19,17 @@ body {
 
 h1, p{
   color: white;
+  margin: none;
+  font-family: "Times New Roman", sans-serif;
+}
+
+button{
+  background: blue;
+  border: none;
+  position: relative;
+  top: -25%;
+  left: -45%;
+}
+button:hover{
+  cursor: pointer;
 }

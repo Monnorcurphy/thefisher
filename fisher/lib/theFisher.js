@@ -29,10 +29,19 @@ document.addEventListener("DOMContentLoaded", function(){
   const canvasEl = document.getElementsByTagName("canvas")[0];
   canvasEl.width = Game.DIM_X;
   canvasEl.height = Game.DIM_Y;
+  let restart = document.getElementById("restart")
+
+  restart.onclick = reset;
 
   this.ctx = canvasEl.getContext("2d");
   this.stage = new createjs.Stage(canvas)
   this.game = new Game(this.stage, {radius: 0});
 
+  function reset (){
+    
+    document.stage.removeAllChildren(document.stage.children)
+    document.stage = new createjs.Stage(canvas)
+    document.game = new Game(document.stage, {radius: 0});
+  }
 
 });
