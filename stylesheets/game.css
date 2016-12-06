@@ -8,7 +8,7 @@ body {
 }
 
 #canvas {
-  border: 5px solid red;
+
   background: blue; /* For browsers that do not support gradients */
     background: -webkit-linear-gradient(#3e83f2, #2062cc, #18458e, #0b2754); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(#3e83f2, #2062cc, #18458e, #0b2754); /* For Opera 11.1 to 12.0 */
@@ -19,17 +19,23 @@ body {
 
 h1, p{
   color: white;
-  margin: none;
+  margin: 10px;
   font-family: "Times New Roman", sans-serif;
 }
 
 button{
-  background: blue;
+  background: red;
   border: none;
   position: relative;
   top: -25%;
-  left: -45%;
+  border-radius: 4px;
+  margin: 2px;
+  left: 30%;
 }
 button:hover{
   cursor: pointer;
+}
+
+h1.title{
+  text-align: center;
 }
