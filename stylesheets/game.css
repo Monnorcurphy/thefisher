@@ -21,21 +21,73 @@ h1, p{
   color: white;
   margin: 10px;
   font-family: "Times New Roman", sans-serif;
+  font-size: inherit;
 }
 
 button{
-  background: red;
+  background: green;
   border: none;
   position: relative;
-  top: -25%;
   border-radius: 4px;
   margin: 2px;
-  left: 30%;
+  font-size: 14px;
+  left: 22%;
 }
+
+button#restart{
+  background: red;
+  position: relative;
+  left: 40%;
+}
+
 button:hover{
   cursor: pointer;
 }
 
+p#accuracy{
+  top: 77%;
+  position: absolute;
+  color: #47fa0f;
+}
+
+p#victory{
+  color: red;
+    position: fixed;
+    top: 38%;
+    right: 31%;
+    font-size: 56px;
+
+}
+
 h1.title{
-  text-align: center;
+  font-size: 30px;
+  position: relative;
+  left: 18%;
+  display: inline-block;
+}
+
+p#fish-count{
+  display: inline-block;
+  font-size: 17px;
+  position: relative;
+  top: 9px;
+}
+
+p#speed{
+  position: fixed;
+top: 76%;
+right: 26%;
+color: yellow;
+}
+
+div.buttons{
+
+  display: flex;
+  }
+
+div.header{
+  width: 48%;
+display: flex;
+float: left;
+
 }

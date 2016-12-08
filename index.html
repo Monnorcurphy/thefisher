@@ -8,18 +8,28 @@
       	<a class="logo"><img="./images/fav-con.png">
     </header>
      <link rel="stylesheet" type="text/css" href="./stylesheets/game.css">
-     <h1 class='title'>The Fisher</h1>
+    <div class='header'>
+      <p id='fish-count'>Fish Remaining: 0</p>
+      <h1 class='title'>The Fisher</h1>
+    </div>
+     <div class='buttons'>
+       <button type="button" id='easy'><p>Easy</p></button>
+       <button type="button" id='medium'><p>Medium</p></button>
+       <button type="button" id='hard'><p>Hard</p></button>
+     </div>
      <canvas id='canvas' height="500" width="550"></canvas>
-     <div id='button'>
+     <p id='victory'></p>
+     <div class='button'>
       <button type="button" id='restart'><p>Restart</p></button>
-      <button type="button" id='easy'><p>Easy</p></button>
-      <button type="button" id='medium'><p>Medium</p></button>
-      <button type="button" id='hard'><p>Hard</p></button>
       </div>
+    <div class='stats'>
+      <p id='accuracy'>Accuracy: 100%</p>
+
+    </div>
      <div id='instructions'>
      <p>Move left and right (A&D/left & right arrows) and fire a hook (S or down arrow)</p>
      <p>You can only fire 1 hook at a time</p>
-     <p>Catch all the fish by hitting their mouths, tails shots don't count!</p>
+     <p>Catch all the fish by hitting their mouths, tail shots don't count!</p>
 
    </div>
 
