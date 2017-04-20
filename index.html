@@ -8,8 +8,12 @@
       	<a class="logo"><img="./images/fav-con.png">
     </header>
      <link rel="stylesheet" type="text/css" href="./stylesheets/game.css">
+     <div id='instructions'>
+     <p>Move left and right (A&D/left & right arrows) and fire a hook (S or down arrow)</p>
+     <p>You can only fire 1 hook at a time</p>
+     <p>Catch all the fish by hitting their mouths, tail shots don't count!</p>
+   </div>
     <div class='header'>
-      <p id='fish-count'>Fish Remaining: 0</p>
       <h1 class='title'>The Fisher</h1>
     </div>
      <div class='buttons'>
@@ -22,16 +26,17 @@
      <div class='button'>
       <button type="button" id='restart'><p>Restart</p></button>
       </div>
+    <div>
     <div class='stats'>
       <p id='accuracy'>Accuracy: 100%</p>
+      <p id='speed'>Speed: 100%</p>
+    </div>
+      <div class= 'fish-count'>
+      <p id='fish-count'>Fish Remaining: 0</p>
+    </div>
 
     </div>
-     <div id='instructions'>
-     <p>Move left and right (A&D/left & right arrows) and fire a hook (S or down arrow)</p>
-     <p>You can only fire 1 hook at a time</p>
-     <p>Catch all the fish by hitting their mouths, tail shots don't count!</p>
 
-   </div>
 
 
      <script src="https://code.createjs.com/easeljs-0.8.2.min.js"></script>
